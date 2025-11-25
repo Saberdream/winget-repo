@@ -8,7 +8,13 @@ Il permet d’ajouter une source personnalisée afin d’installer des applicati
 ## 📂 Structure du dépôt
 
 
-mon-winget-repo/ ├── manifests/ │   └── Contoso/ │       └── HelloWorldApp/ │           └── 1.0.0/ │               └── HelloWorldApp.yaml └── README.md
+mon-winget-repo/ 
+├── manifests/ 
+│   └── Contoso/ 
+│       └── HelloWorldApp/ 
+│           └── 1.0.0/ 
+│               └── HelloWorldApp.yaml 
+└── README.md
 
 
 - `manifests/` : dossier racine des manifests Winget  
