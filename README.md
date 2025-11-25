@@ -61,7 +61,7 @@ winget source update
 
 2. Vérifier les sources disponibles
 
-winget source list
+`winget source list`
 
 3. Installer une application depuis ce dépôt
 
