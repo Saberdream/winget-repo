@@ -37,14 +37,15 @@ ManifestVersion: 1.5.0
 
 👉 Le champ InstallerSha256 doit être calculé avec PowerShell :
 
-Get-FileHash .\helloworldapp-1.0.0-x64.exe -Algorithm SHA256
+`Get-FileHash .\helloworldapp-1.0.0-x64.exe -Algorithm SHA256`
 
 ⚙️ Utilisation
 
 1. Ajouter la source
-
+```
 winget source add -n MonDepot -a https://github.com/Saberdream/winget-repo
 winget source update
+```
 
 2. Vérifier les sources disponibles
 
@@ -52,17 +53,14 @@ winget source list
 
 3. Installer une application depuis ce dépôt
 
-winget install Contoso.HelloWorldApp
+`winget install Contoso.HelloWorldApp`
 
 🤝 Contribuer
 
-Forkez le dépôt
-
-Ajoutez vos manifests dans le dossier manifests/ en respectant la hiérarchie
-
-Vérifiez vos fichiers YAML avec YamlValidator ou winget validate
-
-Proposez une Pull Request
+1. Forkez le dépôt
+2. Ajoutez vos manifests dans le dossier manifests/ en respectant la hiérarchie
+3. Vérifiez vos fichiers YAML avec YamlValidator ou winget validate
+4. Proposez une Pull Request
 
 📌 Notes
 
