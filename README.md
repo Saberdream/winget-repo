@@ -19,7 +19,8 @@ mon-winget-repo/ ├── manifests/ │   └── Contoso/ │       └─�
 
 ## 📄 Exemple de manifest
 
-```yaml
+```
+yaml
 Id: Contoso.HelloWorldApp
 Name: Hello World App
 Publisher: Contoso Ltd
@@ -31,7 +32,8 @@ Installers:
     InstallerUrl: https://example.com/helloworldapp-1.0.0-x64.exe
     InstallerSha256: 0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF
 ManifestType: singleton
-ManifestVersion: 1.5.0```
+ManifestVersion: 1.5.0
+```
 
 👉 Le champ InstallerSha256 doit être calculé avec PowerShell :
 
