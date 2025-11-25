@@ -9,11 +9,17 @@ Il permet d’ajouter une source personnalisée afin d’installer des applicati
 
 
 mon-winget-repo/ 
+
 ├── manifests/ 
+
 │   └── Contoso/ 
+
 │       └── HelloWorldApp/ 
+
 │           └── 1.0.0/ 
+
 │               └── HelloWorldApp.yaml 
+
 └── README.md
 
 
